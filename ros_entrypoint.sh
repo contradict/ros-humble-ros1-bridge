@@ -2,6 +2,6 @@
 set -e
 
 # setup ros2 environment
-source "/ros1_bridge/install/setup.bash" --
+source "/colcon_ws/install/setup.bash" --
 
 exec "$@"
